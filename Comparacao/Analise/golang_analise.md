@@ -1,27 +1,12 @@
 # Golang
 
-![GOlang](./go.png)
-
-# Sumario
-1. [Por que aprender](#por-que-aprender?)
-2. [Análise da LP](#análise-da-lp)
-3. [Códigos de exemplo](#códigos-de-exemplo)
-
 ## Por que aprender?
-
-![GOgoogle](./google.png)
 
 * O Google criou o Golang para resolver os problemas que eles encaram na empresa.
   * Programas complexos usados para softwares de servidores grandes que funcionavam em cima de grandes clusters(vários servidores funcionando entre si).
 
-  ![Clusters](./clusters.webp)
-
   * Antes era usado o C++ e o Java, mas elas não tinha uma fluidez e capacidade de escrita adequada para programas de tal escala.
   * Levando esses fatores em consideração, Ken Thompson e  Robert Griesemer idealizaram o golang para resolver esses problemas.
-
-  ![Robert and Ken](./Robert_and_Ken.jpeg)
-  
-  Figura: Robert Griesemer à esquerda e Ken Thompson à direita
 
 * Direcionado a programas de grandes complexidade e escala, ou que exigiriam eficiencia e um código de grande escalabilidade(i.e, um programa que funciona bem mesmo com uma grande quantidade de dados envolvida; e.g., programas de complexidade linear O(n)).
 
@@ -30,24 +15,6 @@
 * ***Eficiencia***: capacidade de funcionar em milhares de máquinas ao mesmo tempo e pouco desperdício de recursos que ocorreriam em implementações de máquinas virtuais.
 
 * Desse modo, com essas qualidade, o Golang se tornou um modelo bastante prezada pela comunidade de desenvolvedores.
-
-## Análise da LP
-
-* Tipo de linguagem: Imperativa e compilada.
-
-### Capacidade de escrita
-
-### Legibilidade
-
-### Custo
-
-### Confiabilidade
-
-## Códigos de exemplo
-
-### Hello world
-
-#### Golang
 
 ``` go
 package main
