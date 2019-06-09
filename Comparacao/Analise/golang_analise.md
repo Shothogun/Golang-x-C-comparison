@@ -16,6 +16,9 @@
 
 * Desse modo, com essas qualidade, o Golang se tornou um modelo bastante prezada pela comunidade de desenvolvedores.
 
+## Códigos de exemplo
+
+### Hello world
 ``` go
 package main
 
