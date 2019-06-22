@@ -604,3 +604,30 @@ int main() {
 }
 
 ```
+### Uso de maps com Struct
+
+``` go
+
+package main
+
+import "fmt"
+
+type pessoa struct{
+	nome string 
+	idade int
+}
+
+func main() {
+	registro := make(map[int]pessoa,2)
+
+	registro[0] = pessoa{nome:"Joao", idade:17}
+
+	registro[1] = pessoa{nome:"Manuela", idade:27}
+
+	for _,r := range registro{
+		fmt.Println(r.nome, r.idade)
+	}	
+
+}
+
+```
