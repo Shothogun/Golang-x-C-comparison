@@ -506,6 +506,8 @@ int main() {
 
   printf("%s\n", string_saida);
 
+  return 0;
+
 }
 ```
 
